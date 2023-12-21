@@ -4,45 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>table{
-        border-style: double;
+    <style>
+        /*
+    table{
         
-        background-color: gray;
+        border-style: double;
+        background-color: blanchedalmond;
         border-spacing: 12px;
     }
-    th{
+
+    tr{
         border-style: solid;
         background-color: rgb(38, 141, 55);
         border-spacing: inherit;
     }
-    td{
+    th{
         border-spacing: inherit;
         border-style: groove;
         background-color: orange;
         padding: 4px;
-    }</style>
+    }
+    */
+    table{
+        position: relative;
+        border-style:double;
+        background-color:antiquewhite;
+        top:200px;
+        left: 170px;
+        width: 70%;
+
+    }
+    th{
+        text-align: center;
+        padding: 5px;
+        border-style: 5px,solid ;
+        background-color: cadetblue ;
+
+
+    }
+    td{
+        text-align: center;
+        padding: 5px;
+        border-style: 3px , solid;
+        background-color: chocolate;
+    }
+    </style>
  
 </head>
 <body>
     <table>
-        <tr>
-            Nombre
-        </tr>
-        <tr>
-            Apellido
-        </tr>
-        <th>
-            Manuel
-        </th>
-        <th>
-            Sepulveda
-        </th>
-        <td>
-            9.0
-        </td>
-        <td>
-            9.0
-        </td>
+     <tr> 
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>edad</th>
+    </tr>
+    <tr>
+        <td>Manuel</td>
+        <td>Sepulveda</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Tomas</td>
+        <td>Sepulveda</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Rodrigo</td>
+        <td>Sepulveda</td>
+        <td>52</td>
+    </tr>
+
+        
     </table>
     
 </body>
